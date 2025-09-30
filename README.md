@@ -34,7 +34,7 @@ The K-means algorithm identified 2 distinct clusters in the dataset:
 
 -Cluster centroids comparison
 
-5. Conclusion
+5.Conclusion
 
 Cluster 0 highlights particulate-heavy pollution events (linked to traffic, combustion, dust).
 
