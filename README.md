@@ -15,23 +15,24 @@ Goal: Group air quality data into meaningful clusters to better understand domin
 
 -Visualization of pollutant distributions before & after imputation
 
-2. Data Preprocessing
+2.Data Preprocessing
 
 -Missing values were imputed using multivariate.
 
 -Distributions were visualized before vs after imputation to assess the impact.
 
-3. Clustering Results
+3.Clustering Results
 
 The K-means algorithm identified 2 distinct clusters in the dataset:
 
 -Particulate-dominated → higher PM2.5 & PM10, moderate O₃
 -Ozone-influenced → elevated O₃, lower particulates
+
 4.Key Visualizations
 
-Distribution plots of pollutants before vs after imputation
+-Distribution plots of pollutants before vs after imputation
 
-Cluster centroids comparison
+-Cluster centroids comparison
 
 5. Conclusion
 
@@ -41,6 +42,7 @@ Cluster 1 is ozone-driven, likely due to photochemical reactions in the atmosphe
 
 The clustering successfully revealed distinct pollution regimes in Sebokeng.
 
-6.Tools used: Pandas, numpy, matplotlib, seaborn, scikit-learn)
+6.Tools used:
+-Pandas, numpy, matplotlib, seaborn, scikit-learn)
 
-Jupyter Notebook
+-Jupyter Notebook
